@@ -3,7 +3,7 @@
   <title>Angular Upload</title>
   <!-- External Modules -->
   <script src="/vendor/angular/angular.min.js"></script>
-  <script src="/vendor/dist/jquery.min.js"></script>
+  <script src="/vendor/jquery/dist/jquery.min.js"></script>
   <script src="/vendor/ng-file-upload/ng-file-upload.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
