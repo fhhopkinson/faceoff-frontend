@@ -2,18 +2,18 @@
 <head>
   <title>Angular Upload</title>
   <!-- External Modules -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="./bower_components/ng-file-upload/ng-file-upload.min.js"></script>
+  <script src="/vendor/angular/angular.min.js"></script>
+  <script src="/vendor/dist/jquery.min.js"></script>
+  <script src="/vendor/ng-file-upload/ng-file-upload.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 
   <!-- Internal Modulesface -->
-  <script src="./js/app.js"></script>
-  <script src="./js/jquery.js"></script>
-  <script src="./js/controllers/mainController.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/controllers/mainController.js"></script>
 </head>
 <body ng-controller="MainController as main">
 

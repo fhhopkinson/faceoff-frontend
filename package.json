@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhhopkinson/faceoff-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fhhopkinson/faceoff-frontend/issues"
+  },
+  "homepage": "https://github.com/fhhopkinson/faceoff-frontend#readme",
+  "dependencies": {
+    "bower": "^1.7.9"
+  }
+}
