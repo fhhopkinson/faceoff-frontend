@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,600,600italic,300italic);
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+max-width: 900px;
+    margin: 0 auto;
+  line-height: 1.5;
+  background-color: #F7F0F0;
+}
+
+h3 {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+section {
+
+z-index: 20;
+position: absolute;
+}
+
+.margintop {
+margin-top: 100px;
+position: absolute;
+}
+
+.absolutediv {
+width: 900px;
+height: 600px;
+/*border: red 1px solid;*/
+position: absolute;
+display: block;
+z-index: 2;
+top: 0px;
+}
+
+
+.absolute img {
+
+  width: 900px;
+  position: absolute;
+  display: block;
+  z-index: 1;
+  top: 0px;
+}
+
+
+
+.hat {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  z-index: 7;
+}
+.necklace {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  z-index: 5;
+}
+
+.glasses {
+  height: 200px;
+  width: 200px;
+
+  position: absolute;
+  z-index: 7;
+}
+
+.hair {
+  height: 200px;
+  width: 200px;
+
+  position: absolute;
+  z-index: 6;
+}
+.afro {
+  height: 200px;
+  width: 200px;
+
+  position: absolute;
+  z-index: 8;
+}
+
+li { cursor: pointer; cursor: hand; }
+
+.mustache {
+  width: 120px;
+/*  margin-left: 364px;
+  margin-top: 300px; */
+  position: absolute;
+  z-index: 4;
+}
+.beard {
+ /* 
+ margin-left: 322px;
+  margin-top: 269px; 
+  width: 228;will be width of head*/
+  width: 120px;
+  position: absolute;
+  z-index: 3;
+
+}
+
+.sidebar {
+margin: auto 0;
+margin: 0 auto;
+margin-left: 300px;
+position: relative;
+display: block;
+text-align: center;
+margin-bottom: 100px;
+
+}
+
+.bignoseRED {
+  background-color: red;
+
+ animation: blinker 1s linear infinite;
+}
+.bignoseGREEN {
+background-color: green;
+}
+
+.bignoseAMBER {
+background-color: #FFBF00;
+}
+
+
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4.8rem;
+  margin: 4.8rem auto 0;
+  letter-spacing: -2px;
+}
+
+h1:after {
+  content: "™";
+  font-size: 1.4rem;
+  vertical-align: super;
+  position: relative;
+  top: -0.618rem;
+}
+
